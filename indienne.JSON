@@ -1,0 +1,19 @@
+{
+    "nom": "l'indienne",
+    "base": "creme",
+    "ingredients":[
+        "creme fraiche",
+        "poulet",
+        "curry",
+        "poivrons",
+        "fromage rapé"
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 11.5,
+"devise": "€",
+"img":"https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ffac.2F2018.2F07.2F30.2F0815bb38-cd3e-4378-8e9f-2afbed8af90d.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgUGFyw6kgLyBTdWNyw6kgU2Fsw6kgLyBGZW1tZSBBY3R1ZWxsZQ%3D%3D/pizza-au-poulet-et-curry.jpeg"
+}

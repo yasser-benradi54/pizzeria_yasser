@@ -1,0 +1,20 @@
+{
+    "nom": "la reine",
+    "base": "creme",
+    "ingredients":[
+        "creme_fraiche",
+        "jambon de dinde",
+        "gruyere",
+        "champignon de paris",
+        "fine herbes frais"
+        
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 11.5,
+"devise": "€",
+"img":"https://th.bing.com/th/id/R.20bfa61ca6512b5583076f4d4406ed7c?rik=OBzY%2bL47A3sJeQ&pid=ImgRaw&r=0"
+}

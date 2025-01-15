@@ -1,0 +1,20 @@
+{
+    "nom": "la margherita",
+    "base": "tomate",
+    "ingredients":[
+        "coulis de tomate",
+        "tomate pelées",
+        "huile d'olive",
+        "oignon",
+        "thym frais",
+        "mozzarella"
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 8.5,
+"devise": "€",
+"img":"https://th.bing.com/th/id/R.7ee5da5491e591791ae0c04608d41795?rik=4FD9qj6TGh9hTA&riu=http%3a%2f%2fgastronomiapiccinini.it%2fwp-content%2fuploads%2f2017%2f09%2f29848223_ml-1024x683.jpg&ehk=h6Dx7eqmSuIxogLEduokcMsxcAjLZGMyiZVolWkJibk%3d&risl=&pid=ImgRaw&r=0"
+}

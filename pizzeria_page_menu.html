@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="pizzeria_yasser.css" />
+
+    <script type="module" src="menuPizza.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="./image/logo.jpg" alt="" /></a>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="pizzeria_page_accueil_yasser.html">Accueil</a></li>
+          <li><a href="pizzeria_page_menu.html">Menu</a></li>
+
+          <li><a href="pizzeria_page_contact_yasser.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Votre carte</h1>
+    <article id="menu">
+      <div><ul></ul></div>
+    </article>
+
+    <div id="menu"></div>
+
+    <!-- Panier -->
+    <div id="panier">
+      <h3>Mon panier</h3>
+      <!-- Les articles seront ajoutés ici -->
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popup" style="display: none">
+      <div id="popup-content"></div>
+    </div>
+
+    <!--<section id="carte">
+      <article id="tomato">
+
+      </article>
+      <article id="creme">
+
+      </article>
+
+    </section>
+    
+      
+   
+    <section class="menu">
+      <h1 class="titre">La Carte</h1>
+      <div class="tomate">
+       <h3 class="base_tomate">Pizza base tomate</h3>
+
+       <main class="pizza">
+        
+        <div class="card" style="width: 18rem">
+          <img
+            src="./image/pizza-aux-4-fromages.jpeg"
+            class="card-img-top"
+            alt="4 fromage"
+          />
+          <div class="card-body">
+            <h5 class="card-title">La 4 fromage</h5>
+            <p class="card-text">
+              ingredients:
+              <li>coulis de tomates,</li>
+              <li>chevre</li>
+              <li>mozzarella</li>
+              <li>fourme d'ambert</li>
+              <li>emmental</li>
+            </p>
+            <p>11.5 €</p>
+            <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./image/pizza-mama.jpg"
+            class="card-img-top"
+            alt="la mama Maglione"
+          />
+          <div class="card-body">
+            <h5 class="card-title">la Mama Maglione</h5>
+            <p class="card-text">
+              ingredients:
+              <li>coulis de tomates,</li>
+              <li>burrata</li>
+              <li>poulet</li>
+              <li>fromage rapé</li>
+              <li>huile d'olive</li>
+              
+            </p>
+            <p>11.5 €</p>
+            <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./image/pizzabolognaise.jpg"
+            class="card-img-top"
+            alt="Bolognaise"
+          />
+          <div class="card-body">
+            <h5 class="card-title">La Bolognaise</h5>
+            <p class="card-text">
+              ingredients:
+              <li>coulis de tomates,</li>
+              <li>boeuf viande hachée</li>
+              <li>gruyere rapé</li>
+              <li>oignon</li>
+              <li>origan</li>
+            </p>
+            <p>11.5 €</p>
+            <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./image/margherita.jpg"
+            class="card-img-top"
+            alt="margherita"
+          />
+          <div class="card-body">
+            <h5 class="card-title">La Margherita</h5>
+            <p class="card-text">
+              ingredients:
+              <li>coulis de tomates,</li>
+              <li>tomate pelé</li>
+              <li>huile d'olive</li>
+              <li>mozzarella</li>
+              <li>oignon</li>
+            </p>
+            <p>11.5 €</p>
+            <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+          </div>
+        </div> 
+      </div>
+    
+        <h3 class="base_creme"> Pizza base creme</h3>
+        <main class="pizza">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./image/carnivore.JPG"
+              class="card-img-top"
+              alt="la carnivore"
+            />
+            <div class="card-body">
+              <h5 class="card-title">La carnivore</h5>
+              <p class="card-text">
+                ingredients:
+                <li>creme fraiche</li>
+                <li>concentrer de tomates</li>
+                <li>steaks hachés de boeuf</li>
+                <li>emmental</li>
+                <li>oignon</li>
+              </p>
+              <p>11.5 €</p>
+              <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./image/pizza-reine.jpeg"
+              class="card-img-top"
+              alt="la reine"
+            />
+            <div class="card-body">
+              <h5 class="card-title">La reine</h5>
+              <p class="card-text">
+                ingredients:
+                <li>creme fraiche</li>
+                <li>jambon de dinde</li>
+                <li>champignon de paris</li>
+                <li>gruyere</li>
+                <li>fine herbes frais</li>
+              </p>
+              <p>11.5 €</p>
+              <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./image/pizza-oriental.webp"
+              class="card-img-top"
+              alt="l'orientale"
+            />
+            <div class="card-body">
+              <h5 class="card-title">L'orientale</h5>
+              <p class="card-text">
+                ingredients:
+                <li>creme fraiche</li>
+                <li>poulet</li>
+                <li>merguez</li>
+                <li>poivrons</li>
+                <li>fromage rapé</li>
+              </p>
+              <p>11.5 €</p>
+              <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./image/pizza-au-poulet-et-curry.jpeg"
+              class="card-img-top"
+              alt="l'indienne"
+            />
+            <div class="card-body">
+              <h5 class="card-title">L'indienne</h5>
+              <p class="card-text">
+                ingredients:
+                <li>creme fraiche</li>
+                <li>poulet</li>
+                <li>curry</li>
+                <li>poivrons</li>
+                <li>fromage rapé</li>
+              </p>
+              <p>11.5 €</p>
+              <a href="pizzeria_page_commande.html" class="btn btn-primary">Ajouter</a>
+            </div>
+          </div>
+       </main>
+        
+         
+      </main>
+   
+    </section> -->
+    <footer class="footer">
+      <div class="content_footer">
+        <div class="content_footer_item">
+          <h5><a href="pizzeria_page_contact_yasser.html">Adresse:</a></h5>
+          <li>99 Rue d'Italie</li>
+          <li>54000 Nancy</li>
+        </div>
+        <div class="content_footer_item">
+          <h5><a href="pizzeria_page_contact_yasser.html">Horaire:</a></h5>
+          <li>Lun Fermer ❌</li>
+          <li>Mar 12h-21h ✔️</li>
+          <li>Mer 12h-21h ✔️</li>
+          <li>Jeu 12h-21h ✔️</li>
+          <li>Ven 12h-23h ✔️</li>
+          <li>Sam 12h-23h ✔️</li>
+          <li>Dim 18h-22h ✔️</li>
+        </div>
+        <div class="content_footer_item">
+          <h5>
+            <a href="pizzeria_page_contact_yasser.html">Contactez-nous:</a>
+          </h5>
+          <li>0699999954</li>
+          <li>0383499999</li>
+        </div>
+        <div class="content_footer_item">
+          <h5>
+            <a href="pizzeria_page_contact_yasser.html">Retrouvez-nous sur:</a>
+          </h5>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Tiktok</li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

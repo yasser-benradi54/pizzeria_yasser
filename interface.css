@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#commandeInput {
+  width: 75%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.commandes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 30%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+li button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e68900;
+}

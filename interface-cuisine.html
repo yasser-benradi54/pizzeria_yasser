@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="interface.css" />
+    <script type="module" src="interface.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="fr">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interface de Commande en Cuisine</title>
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+      <body>
+        <div class="container">
+          <h1>Interface de Commande en Cuisine</h1>
+
+          <div class="input-section">
+            <input
+              type="text"
+              id="commandeInput"
+              placeholder="Entrez une commande..."
+            />
+            <button id="ajouterCommande">Ajouter</button>
+          </div>
+
+          <div class="commandes">
+            <div class="section" id="commandeEnCours">
+              <h2>Commandes en cours</h2>
+              <ul id="listEnCours"></ul>
+            </div>
+            <div class="section" id="commandeFini">
+              <h2>Commandes finies</h2>
+              <ul id="listFini"></ul>
+            </div>
+            <div class="section" id="commandeLivree">
+              <h2>Commandes livrées</h2>
+              <ul id="listLivree"></ul>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>

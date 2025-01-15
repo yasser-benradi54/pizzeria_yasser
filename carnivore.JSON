@@ -1,0 +1,21 @@
+{
+    "nom": "la carnivore",
+    "base": "creme",
+    "ingredients":[
+        "creme fraiche",
+        "concentrer de tomates",
+        "steaks hachés de boeuf facon boucher",
+        "emmental",
+        "oignon"
+        
+
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 11.5,
+"devise": "€",
+"img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieYEy6aPTml8He1mD44mGjToaH-1PWeOsDxBbAFCfx_gyuuWlGqcGPKPtyOk9_zTIalYbFXuK3jZ6j2bZESdgLYvp1GGwbAyP560PbV9mlwczcYxJ-jnxjRe-bM9sUCSIHsuxnrlVZbX97BeMWo484WRO_JX-jD5vU2CE5oTgNoQc8w0qsKqYVpyivkQ/s1000/Subsi2.JPG"
+}

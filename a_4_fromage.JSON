@@ -1,0 +1,19 @@
+{
+    "nom": "4 Fromage",
+    "base": "tomate",
+    "ingredients":[
+        "coulis de tomates",
+        "chevre",
+        "mozzarella",
+        "fourme d'ambert",
+        "emmental"
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 9.5,
+"devise": "€",
+"img":"https://img.cuisineaz.com/660x660/2023/01/24/i190902-pizza-aux-4-fromages.jpeg"
+}

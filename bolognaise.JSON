@@ -1,0 +1,19 @@
+{
+    "nom": "la bolognaise",
+    "base": "tomate",
+    "ingredients":[
+        "coulis de tomte",
+        "boeuf viande hachee",
+        "gruyere rapé",
+        "oignon",
+        "origan"
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 10.5,
+"devise": "€",
+"img":"https://img.mesrecettesfaciles.fr/wp-content/uploads/2018/03/pizzabolognaise-1000x500.jpg"
+}

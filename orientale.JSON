@@ -1,0 +1,20 @@
+{
+    "nom": "l'orientale",
+    "base": "creme",
+    "ingredients":[
+        "creme_fraiche",
+        "poulet",
+        "merguez",
+        "poivrons",
+        "fromage rape"
+        
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 11.5,
+"devise": "€",
+"img":"https://i0.wp.com/www.allopizza94.com/wp-content/uploads/2021/05/orientale-scaled.jpg?fit=2560%2C1440&ssl=1"
+}

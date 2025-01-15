@@ -1,0 +1,19 @@
+{
+    "nom": "la mama maglione",
+    "base": "tomate",
+    "ingredients":[
+        "coulis de tomate",
+        "poulet",
+        "burrata",
+        "huile d'olive",
+        "fromage rapé"
+    ],
+"option-diet":{
+    "halal": true,
+    "vegan": true,
+    "sans_gluten": true
+},
+"prix": 12.5,
+"devise": "€",
+"img":"https://img.cocinarico.es/2020-09/pizza-con-burrata-y-albahaca-1.jpg"
+}
